@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+- (IBAction)unwindToViewControllerFor:(UIStoryboardSegue *)segue;
+
 @end
 
 @implementation ViewController
@@ -25,7 +27,7 @@
 	// Dispose of any resources that can be recreated.
 }
 
-- (IBAction)unwindToViewControllerFor:(UIStoryboardSegue *)segue {
+- (void)unwindToViewControllerFor:(UIStoryboardSegue *)segue {
 	// code
 }
 
