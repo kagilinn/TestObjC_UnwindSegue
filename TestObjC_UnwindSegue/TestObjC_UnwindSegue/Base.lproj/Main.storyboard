@@ -58,7 +58,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <segue destination="E6F-r8-TcI" kind="unwind" unwindAction="unwindToViewControllerFor:" id="tz8-eo-4iC"/>
+                                            <segue destination="E6F-r8-TcI" kind="unwind" customClass="RollingUnwindSegue" unwindAction="unwindToViewControllerFor:" id="tz8-eo-4iC"/>
                                         </connections>
                                     </button>
                                 </subviews>
