@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <segue destination="4w5-UQ-EKa" kind="show" id="wVw-pC-x1K"/>
+                                            <segue destination="4w5-UQ-EKa" kind="custom" customClass="RollingSegue" id="wVw-pC-x1K"/>
                                         </connections>
                                     </button>
                                 </subviews>
